@@ -3,13 +3,13 @@ package:
   name: 'tl_solana_liquidity_providers_1_0_3'
   version: v1.0.3
 
+network: solana
+
 protobuf:
   files:
     - output.proto
   importPaths:
     - ./proto
-
-
 
 binaries:
   default:
